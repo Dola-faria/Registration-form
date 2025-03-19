@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    box-sizing:border-box;
+    margin: 0%;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* দুটি ছবির মাঝে ফাঁকা রাখতে */
+    align-items: center; /* সোজাসুজি রাখতে */
+    gap: 20px; /* ছবির মাঝে কিছু গ্যাপ রাখতে */
+    background-color:darkgray;
+}
+.container2{
+    display: flex;
+    justify-content: space-between; /* দুটি ছবির মাঝে ফাঁকা রাখতে */
+    align-items: center; /* সোজাসুজি রাখতে */
+    gap: 20px; /* ছবির মাঝে কিছু গ্যাপ রাখতে */
+    
+}
+a{ 
+    color: black;
+    text-decoration: none;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.column {
+    width: 10%; /* Adjusting width to ensure they are not too far apart */
+}
+
+ label {
+    display: flex;
+    font-weight:200;
+    margin-bottom: 10px 5px;
+    font-style:bold;
+
+} 
+
+ .input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+} 
+ /* .date-of-birth{
+
+    display: flex;
+    gap:10px;
+   
+
+}
+.row-date{
+    width: 10%; 
+}  */
+select{
+    width:32%
+}
+.form-class {
+    display: flex;          /* দুটি কলাম পাশাপাশি রাখতে Flexbox ব্যবহার */
+    gap: 30px;             /* দুই কলামের মধ্যে ফাঁকা */
+    max-width: 800px;      /* ফর্মের সর্বোচ্চ প্রস্থ */
+    margin: 50px auto;     /* ফর্মকে পেজের মাঝে আনার জন্য */
+    align-items: stretch;  /* উভয় কলামের উচ্চতা সমান রাখবে */
+}
+.left-column,
+.right-column {
+    flex: 1;               /* দুই কলামকে সমান জায়গা দেবে */
+    display: flex;
+    flex-direction: column;
+}
+.l-column {
+    margin-bottom: 15px;
+}
+button{
+    background-color:rgba(0, 255, 255, 0.384);
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.dob{
+    display: flex;   /* Flexbox ব্যবহার করে পাশাপাশি বসানো */
+    gap: 10px;
+}
+.dola{
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student Resgistration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"><img src="https://registration-form-omega-beryl.vercel.app/images/ict_logo.png" alt="image1" height="100" width="150">
+    <img src="https://registration-form-omega-beryl.vercel.app/images/ict_logo_2.png" alt="image2" height="100" width="150">
+     </div>
+    <hr>
+     <div class="container2"> 
+        <a href="#">Home</a>
+        <a href="#">Course Module </a>
+
+        <a href="#">Class schedule</a>
+        <a href="#">Success Story </a>
+        <a href="#">Attendence</a>
+        <a href="#">FAQ</a>
+        <a href="#">Login</a>
+       </div>
+       <hr>
+       <br>
+    <h3>Student Registration form</h3>
+    <h5>Please enter relevant information,</h5>
+    <br>
+    <br>
+    <div class="form">
+        <form action="php" class="form-class">
+            <!-- left column -->
+             <div class="left-column">
+
+                <div class="l-column">
+                    <label for="instituor">Institutor District</label>
+                <select id="instituor" text-align="center">
+                    <option value="select one" > Select one</option>
+                    <option value="Dhaka" > Dhaka</option>
+                    <option value="rajshahi" > Rajshahi</option>
+                    <option value="cumilla" > Cumilla</option>
+                    <option value="Raipur" > Raipur</option>
+                    <option value="Rongpur" > Rongpur</option>
+        
+                </select>
+                <br><br>
+                </div>
+        
+               
+                <div class="l-column">
+                    <label for="Course">Course</label>
+                    <select id="Course" >
+                        <option value="select one" > Select one</option>
+                        <option value="ee205" > EER205</option>
+                        <option value="cse121" > CSE121</option>
+                        <option value="capstone" > Capstone</option>
+                        <option value="cse132" > Cse 132</option>
+                        <option value="cse145" > Cse145</option>
+            
+                    </select>
+    
+                <br>
+                </div>
+        
+                <div class="l-column">
+                    <label for="name">Student Name*</label>
+                <input type="text" id="name" placeholder="Enter your name"> 
+                <br><br>
+                </div>
+            
+                
+                <div class="l-column">
+                    <label for="name">Father's Name*</label>
+                <input type="text" id="name" placeholder="Enter the name"> 
+                
+            
+                <br>
+                <br>
+                </div>
+                <div class="l-column">
+                    <label for="name">Mother's Name*</label>
+                <input type="text" id="name" placeholder="Enter the name" required> 
+                <br><br>
+                </div>
+                <div class="l-column">
+                    <label for="dob"> Date of Birth*</label>
+                    <div class="dob">
+                       
+                        <br>
+                        <div class="day">
+                            <select name="day" id="day" class="dola">
+                                <option value="select">Day</option>
+                                <option value="select">15</option>
+                                <option value="select">04</option>
+                            </select>
+                            <select name="dob" id="month" class="dola">
+                                <option value="select one">Month</option>
+                                <option value="select one">February</option>
+                                <option value="select one">April</option>
+                            </select>
+                            <select name="dob" id="year" class="dola">
+                                <option value="select one">Year</option>
+                                <option value="select one">2003</option>
+                                <option value="select one">2001</option>
+                            </select>
+                        </div>
+                        
+                            
+                        
+                        
+                    </div>
+                </div>
+
+               <div class="l-column">
+                <div class="gender">
+                    <label for="Gender">Gender*</label>
+                     
+                     <input type="radio" name="Gender" id="Gender" >Male
+                     <input type="radio" name="Gender" id="Gender">Female
+                 </div>
+                 <br> 
+               </div>
+                <div class="l-column">
+                    <div class="email">
+                        <label for="email">Email*</label>
+                        <input type="text" id="email" placeholder="Enter your mail">
+                    </div>
+                    <br>
+                </div>
+               <div class="l-column">
+                <div class="phone">
+                    <label for="phone">Phone number(11 digits)</label>
+                    <input type="number" name="phone" id="phone" placeholder="Enter your number">
+
+                </div>
+                <br>
+               </div>
+             </div>
+
+        
+           
+                <!-- right column -->
+
+                <div class="right-column">
+                    <div class="l-column">
+                        <div class="district">
+
+                            <label for="district">Home District</label>
+                            <input type="text" id="district">
+                        </div>
+
+                    </div>
+
+                    <div class="l-column">
+                        <div class="home">
+                            <label for="home">Village/Home NO.</label>
+                            <input type="text" id="home" value="konapara">
+                        </div>
+                    </div>
+
+                    <div class="l-column">
+                        <div class="post">
+                            <label for="post">Post-Code*</label>
+                            <input type="number" id="post" value="1362">
+                        </div>
+                    </div>
+
+                    <div class="l-column">
+                        <div class="Educational">
+                            <label for="Educational">Educational Qualification*</label>
+                            <select name="Educational" id="Educational">
+                                <option value="SElect">Select One</option>
+                                <option value="BBA">BBA</option>
+                                <option value="M.S.C">M.S.C</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="l-column">
+                        <div class="computer">
+                            <label for="computer">Do you have a computer*</label>
+                            <input type="radio" name="computer" id="computer">Yes
+                            <input type="radio" name="computer" id="computer">No
+                        </div>
+                    </div>
+
+                    <div class="l-column">
+                        <div class="photo">
+                            <label for="photo">Your photo*</label>
+                            <input type="file" name="photo" id="photo">
+                        </div>
+                    </div>
+
+                    <div class="l-column">
+                        <div class="signature">
+                            <label for="signature">Your Signature*</label>
+                            <input type="file" name="signature" id="signature">
+                        </div>
+                    </div>
+
+                    <div class="l-column">
+                        <div class="info">
+                            <button>Submit Your information</button>
+                        </div>
+                    </div>
+                </div>
+
+                </form>
+
+                <div>
+                    
+                        
+                       
+                    
+                </div>
+            </div>
+                
+
+                
+</div>
+   
+   
+
+</body>
+</html>
